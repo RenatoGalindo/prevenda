@@ -20,6 +20,16 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
+  <style>
+    .explanation{
+      padding: 6rem 0 2rem;
+    }
+    .form-body{
+      background-color: #eeeeee;
+      padding: 3rem;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -61,47 +71,152 @@
   <section>
     <div class="container">
       <div class="row align-items-center">
-        
-        
             <div class="row align-items-center">
-            <p>Começamos a compartilhar alguns dos recursos incríveis que você verá no Ih cade, mas ainda não estamos prontos para revelar por inteiro a nova geração do Ih cade. Inscreva-se abaixo para ser um dos primeiros a receber as atualizações assim que forem anunciadas, inclusive notícias sobre a data de lançamento do Ih cade, o preço do Ih cade e a futura funcionalidases que serão lançados com o Ih cade.</p>
-           
+            <p class="text-center explanation">Começamos a compartilhar alguns dos recursos incríveis que você verá no Ih cade, mas ainda não estamos prontos para revelar por inteiro a nova geração do Ih cade. Inscreva-se abaixo para ser um dos primeiros a receber as atualizações assim que forem anunciadas, inclusive notícias sobre a data de lançamento do Ih cade, o preço do Ih cade e a futura funcionalidases que serão lançados com o Ih cade.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section>
-    <div class="container">
-      <div class="row align-items-center">
-        
-        
-            <div class="row align-center">
-           
-              <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </div>
+    
+    <div class="container form-body mb-5">
+      <div class="alert alert-success" role="alert" style="display: none" id="success">
+        Formulário enviado com sucesso!
       </div>
+        <form method="GET" id="form-ih">
+          <div class="form-row">
+            <div class="col">
+              <div class="form-group font-weight-bold">
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu email" required>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group font-weight-bold">
+                <label for="exampleInputEmail1">Confirme o endereço de email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Confirme seu email" required>
+              </div>
+            </div>
+          </div>
+          <div class="font-weight-bold">
+            <label for="exampleInputEmail1">Data de nascimento</label>
+            <div class="py-2 font-weight-light">
+              Precisamos saber sua data de nascimento para garantir que você receba as informações adequadas para sua idade.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <select placeholder="Selecione o dia" class="form-control" required>
+                <option value="">Selecione o dia</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+              </select>
+            </div>
+            <div class="col">
+              <select placeholder="Selecione o mês" class="form-control" required>
+                <option value="">Selecione o mês</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+            </div>
+            <div class="col">
+              <select placeholder="Selecione o ano" class="form-control" required>
+                <option value="">Selecione o ano</option>
+                <option>2002</option>
+                <option>2001</option>
+                <option>2000</option>
+                <option>1999</option>
+                <option>1998</option>
+                <option>1997</option>
+                <option>1996</option>
+                <option>1995</option>
+                <option>1994</option>
+                <option>1993</option>
+                <option>1992</option>
+                <option>1991</option>
+                <option>1990</option>
+                <option>1989</option>
+                <option>1988</option>
+                <option>1987</option>
+                <option>1986</option>
+                <option>1985</option>
+                <option>1984</option>
+                <option>1983</option>
+                <option>1982</option>
+                <option>1981</option>
+                <option>1980</option>
+                <option>1979</option>
+                <option>1978</option>
+                <option>1977</option>
+                <option>1976</option>
+                <option>1975</option>
+                <option>1974</option>
+                <option>1973</option>
+                <option>1972</option>
+                <option>1971</option>
+                <option>1970</option>
+              </select>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col font-weight-bold">Segurança</div>
+          </div>
+          <div class="row py-2">
+            <div class="col font-weight-light">Talvez seja necessário verificar que você não é um robô.</div>
+          </div>
+
+          <div class="">
+            <img src="./img/recaptcha.png">
+          </div>
+          <div class="text-center p-5 font-weight-light" style="padding: 20px 200px !important;">
+            Ao clicar abaixo você concorda em receber informações e ofertas personalizadas por email relacionadas ao Ih cade!.
+          </div>
+          <div class="text-center p-2">
+            <button type="submit" class="btn btn-primary bg-info p-3" style="border: none;">Inscrever-se</button>
+          </div>
+        </form>
     </div>
   </section>
-
-
-
-
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
@@ -113,6 +228,13 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $( "#form-ih" ).submit(function( event ) {
+      event.preventDefault();
+      $("#success").toggle();
+    });
+  </script>
 
 </body>
 
